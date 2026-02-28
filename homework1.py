@@ -15,7 +15,7 @@ while i < 50:
 i = 0
 while i < 50:
     j = 0
-    while j < 50 - i - 1:
+    while j < 49 - i:
         if arr1[j] > arr1[j + 1]:
             # Меняем местами
             temp = arr1[j]
@@ -24,8 +24,8 @@ while i < 50:
         j += 1
     i += 1
 
-print("Отсортированный массив 1:", arr1)
-print("Массив 2:", arr2)
+print("Отсортированный массив 1: ", arr1)
+print("Массив 2: ", arr2)
 
 # 3. Реализация Бинарного поиска (тот самый "Бинарный метод")
 def binary_search(array, target):
